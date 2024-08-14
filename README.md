@@ -6,13 +6,8 @@ This project contains solutions to a series of algorithmic problems given as par
 
 1. **Recursive Sequence Calculation**
    - Implemented a recursive function to calculate the elements of a sequence defined by the following recurrence relation:
-     \[
-     a_i = egin{cases}
-     5 & 	ext{ha } i = 0 \
-     rac{1}{10} \cdot \left(2 + 2 \cdot a_{i-1}
-ight) & 	ext{egyébként}
-     \end{cases}
-     \]
+     - `a_i = 5` if `i = 0`
+     - `a_i = (1/10) * (2 + 2 * a_(i-1))` otherwise
    - The function calculates and prints the first 11 elements of the sequence.
 
 2. **Least Common Multiple (LCM) Calculation**
